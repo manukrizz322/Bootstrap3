@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collapse</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        hr {
+            margin-top: 15px;
+            margin-bottom: 15px;
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h4>Collapse</h4>
+                <button class="btn btn-success" data-toggle="collapse" data-target="#box">Click Me</button>
+                <div id="box" class="collapse" style="background-color: teal;color: white;padding: 5px;">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel sit aspernatur pariatur fuga at
+                        harum libero iure nam, distinctio ipsum repudiandae quos, explicabo aliquid soluta. Expedita
+                        unde pariatur sequi recusandae voluptatem, commodi perspiciatis tempore corporis laborum iste
+                        adipisci et dolorem. Suscipit magni inventore similique nostrum? Ratione velit ipsa praesentium
+                        sunt.</p>
+                </div>
+                <hr>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <a href="#box2" data-toggle="collapse">Heading</a>
+                    </div>
+                    <div id="box2" class="panel-collapse collapse">
+                        <div class="panel-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus, atque?</div>
+                        <div class="panel-footer">Footeer</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>

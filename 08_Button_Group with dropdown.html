@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Group with dropdown</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        hr {
+            margin-top: 15px;
+            margin-bottom: 15px;
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h3>Bootstrap Button Group with dropdown</h3>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="btn-group">
+                    <button class="btn btn-primary">courses</button>
+                    <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown"><span
+                            class="caret"></span></button>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">C</a></li>
+                        <li><a href="#">C++</a></li>
+                        <li><a href="#">Java</a></li>
+                        <li><a href="#">C#.Net</a></li>
+                    </ul>
+                </div>
+                <div class="btn-group">
+                    <button class="btn btn-primary">Home</button>
+                    <button class="btn btn-primary">Downloads</button>
+                    <div class="btn-group">
+                        <button class="btn btn-primary">Courses</button>
+                        <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown"><span
+                                class="caret"></span></button>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">C</a></li>
+                            <li><a href="#">C++</a></li>
+                            <li><a href="#">Java</a></li>
+                            <li><a href="#">C#.Net</a></li>
+                        </ul>
+
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>
